@@ -1,0 +1,356 @@
+body {
+    display: grid;
+    padding: 0px;
+    margin: 0 auto;
+}
+.header {
+    position: fixed;
+    display: flex;
+    top: 0 px;
+    margin: 0px auto;
+    z-index: 2;
+    background-color: white;
+    width: 100%;
+}
+.main-logo {
+    height: 100px;
+    width: 150px;
+    margin: 5px 
+}
+.navigation {
+    margin: 0 auto;
+    padding: 50px 30px 30px 30px;
+}
+.nav-menu {
+    margin: 10px 40px 0px 40px;
+    color: black;
+    font-weight:bold;
+    font-size: large;
+}
+[href]:hover {
+    color: #51b961db;
+}
+.account-buttons {
+    padding: 20px;
+    display: flex;
+}
+.header-buttons {
+    margin: 30px 40px 0px 15px;
+    padding: 10px;
+    background-color: #005190;
+    border: #005190 2px solid;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#header-button-one {
+    color:#005190;
+    background-color: white;
+}
+.form {
+    background: #51b961;
+    border-radius: 10px;
+    box-shadow: 20px;
+    width: 250px;
+    padding: 30px;
+    display: grid;
+    position: absolute;
+    right: 80px;
+    top: 150px;
+    font-weight: bold;
+}
+.form-input-details {
+    color: black;
+}
+input {
+    padding: 10px;
+    margin: 20px 10px 30px 10px;
+    height: 20px;
+    width: 200px;
+    box-shadow: #091722 ;
+    
+}
+.form-buttons {
+    border: 2px black solid;
+    border-radius: 5px;
+    align-self: center;
+    position: relative;
+    left: 40px;
+    padding: 10px;
+    border: #51b961 1px solid;
+}
+
+#home-page {
+    background-color: #ECF6FF;
+    display: grid;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    padding: 10px 0px 80px 0px;
+    width: 100%;
+}
+.homepage-section-one {
+    position: relative;
+    display: flex;
+}
+
+.home-page-one{
+    font-size: medium;
+    margin: 120px 30px 30px 30px;
+    padding: 10px 40px 10px 60px;
+    max-width: 35%;
+}
+.home-page-content-one {
+    padding: 20px 10px 0px 10px;
+    margin: 20px 10px 0px 10px;
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+.home-page-content-two{
+    padding: 0px 10px 20px 10px;
+    margin: 0px 10px 10px 10px;
+    font-size: large;
+}
+.home-page-content-three{
+    padding: 0px 10px 10px 10px;
+    margin: 10px;
+    font-size: small;
+}
+.home-page-two {
+ /* part for image*/
+ position: relative;
+ max-width: 50%; 
+}
+#home-page-button {
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #005190;
+    padding: 13px 50px 13px 20px;
+    background-color: #005190;
+    max-width: 20%;
+    margin: 20px 10px 0px 100px;
+    font-size: small;
+
+}
+
+#about-us {
+    position: relative;
+    top: 100px;
+    display: grid;
+    margin: -5px 0px 0px 5px;
+}
+
+.about-us-one {
+    padding: 60px 10px 20px 10px;
+    display: grid;
+    width: 100%
+}
+.about-us-span-one { 
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.about-us-span-two {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: medium;
+}
+.about-us-two{
+    margin: 20px;
+    padding: 20px;
+    display: grid;
+}
+.row-one {
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+}
+.row-two{
+    position: relative;
+    display: flex;
+}
+.about-us-tabs-one{
+    border: 1px solid #007912;
+    background-color: #007912;
+    border-radius: 10px;
+    margin: 5px 20px 10px 0px;
+    padding: 20px 20px 20px 20px;
+    max-width: 33%;
+
+}
+.tab-header {
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+.tab-content{
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    font-size: medium;
+    text-align: justify;
+}
+.about-us-tabs-two{
+    border: 1px solid #005190;
+    background-color: #005190;
+    border-radius: 10px;
+    margin: 5px 20px 10px 0px;
+    padding: 20px 20px 20px 20px;
+    max-width: 33%;
+}
+.about-us-tabs-three {
+    border: 1px solid #B49F00;
+    background-color: #B49F00;
+    border-radius: 10px;
+    margin: 5px 20px 10px 0px;
+    padding: 20px 20px 20px 20px;
+    max-width: 33%;
+} 
+
+#our-products {
+    position: relative;
+    top: 50px;
+    display: grid;
+    background-color: #F2F2F2;
+    margin-top: 80px;
+}
+.our-products-header {
+    padding: 60px 10px 20px 10px;
+    display: grid;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+}
+.our-products-span-one {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.our-products-content {
+    padding: 20px;
+    margin: 20px;
+    display: grid;
+}
+.our-products-tabs{
+    position: relative;
+    margin: 10px 0px 40px 0px;
+    padding: 10px;
+    display: flex;
+}
+.our-products-tabs-header {
+    padding: 80px 20px 50px 20px;
+    display: grid;
+}
+.product-header{
+    font-size: x-large;
+    font-weight: bold;
+}
+.product-subheader{
+    position: relative;
+    margin: 20px 0px 20px 0px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: small;
+}
+.products-paragraph {
+    margin: 0 auto;
+}
+.product-content{
+    margin: 5px;
+    text-align: justify;
+}
+#our-products-tabs-header-one{
+    float: right;
+    width: 90%;
+}
+
+.product-image-two{
+    float: right;
+}
+#product-image-three{
+    width: 50%;
+}
+#our-products-tabs-header-two{
+    width: 90%;
+}
+#our-products-tabs-header-three{
+    float: right;
+    width: 40%;
+}
+.our-products-tabs-button{
+    position: relative;
+    width: 50%;
+    border: 1px solid #005190;
+    border-radius: 10px;
+    padding: 13px 30px 13px 30px;
+    background-color: #005190;
+    margin: 20px 10px 0px 100px;
+    font-size: small;
+    font-weight: bold;
+    color: #ECF6FF;
+    text-align: center;
+}
+hr {
+    color: #091722;
+}
+
+#section-three {
+    background-color: #F2F2F2;
+    padding: 30px;
+    display: grid;
+}
+.section-three-header{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 20px;
+    margin-top: 50px;
+    color: #005190;
+}
+.value-proposition-tabs{
+    margin: 10px;
+    padding: 10px;
+}
+.value-proposition-header{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    text-decoration-line: underline;
+}
+.image-and-container {
+    display: flex;
+}
+
+.prep-one {
+    position: relative;
+    margin: 0px 30px 0px 30px;
+    padding: 20px 20px 20px 20px;
+}
+.value-proposition-content{
+    margin: 10px;
+    padding: 10px 20px 10px 20px;
+    max-width: 80%;
+}
+.value-image {
+    max-width: 70%;
+}
+#value-proposition-partners{
+    float: right;
+}
+.value-proposition-content-header {
+    font-size: large;
+    font-weight: bold;
+}
+.value-proposition-content-paragraphs{
+    text-align: justify;
+    margin-top: 10px;
+}
+
